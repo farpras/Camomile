@@ -28,7 +28,6 @@
 *.component
 *.vst
 *.vst3
-*.lv2
 
 # Mac Xcode
 *.xcuserstate
