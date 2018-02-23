@@ -25,6 +25,8 @@ matrix:
     - make -C Dependencies/LibPd/build/makefile libpdstatic
     - make -C Instrument/Builds/LinuxMakefile TARGET_ARCH=-m64 CONFIG=Release
     - make -C Effect/Builds/LinuxMakefile TARGET_ARCH=-m64 CONFIG=Release
+    - make -C Instrument/Builds/LinuxMakefile-LV2 TARGET_ARCH=-m64 CONFIG=Release
+    - make -C Effect/Builds/LinuxMakefile-LV2 TARGET_ARCH=-m64 CONFIG=Release
     before_deploy:
     - rm Plugins/Camomile.a
     - rm Plugins/CamomileFx.a
