@@ -37,8 +37,10 @@
 # Juce & ThirdParty
 /Instrument/Builds/MacOSX/build/
 /Instrument/Builds/LinuxMakefile/build/
+/Instrument/Builds/LinuxMakefile-LV2/build/
 /Effect/Builds/MacOSX/build/
 /Effect/Builds/LinuxMakefile/build/
+/Effect/Builds/LinuxMakefile-LV2/build/
 /.backup/
 
 #Examples
