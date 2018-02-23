@@ -315,6 +315,7 @@
     <ClCompile Include="..\..\..\Source\Pd\PdObject.cpp"/>
     <ClCompile Include="..\..\..\Source\Pd\PdPatch.cpp"/>
     <ClCompile Include="..\..\..\Source\Pd\x_libpd_multi.c"/>
+    <ClCompile Include="..\..\..\Dependencies\JuceLV2\juce_LV2_Wrapper.cpp"/>
     <ClCompile Include="..\..\..\Juce\modules\juce_audio_basics\buffers\juce_AudioChannelSet.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
@@ -1984,6 +1985,22 @@
     <ClInclude Include="..\..\..\Source\Pd\PdObject.hpp"/>
     <ClInclude Include="..\..\..\Source\Pd\PdPatch.hpp"/>
     <ClInclude Include="..\..\..\Source\Pd\x_libpd_multi.h"/>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\atom-util.h"/>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\atom.h"/>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\buf-size.h"/>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\instance-access.h"/>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\lv2.h"/>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\lv2_external_ui.h"/>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\lv2_programs.h"/>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\midi.h"/>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\options.h"/>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\port-props.h"/>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\presets.h"/>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\state.h"/>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\time.h"/>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\ui.h"/>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\units.h"/>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\urid.h"/>
     <ClInclude Include="..\..\..\Juce\modules\juce_audio_basics\audio_play_head\juce_AudioPlayHead.h"/>
     <ClInclude Include="..\..\..\Juce\modules\juce_audio_basics\buffers\juce_AudioChannelSet.h"/>
     <ClInclude Include="..\..\..\Juce\modules\juce_audio_basics\buffers\juce_AudioDataConverters.h"/>

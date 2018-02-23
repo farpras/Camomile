@@ -5,6 +5,12 @@
     <Filter Include="Camomile\Source\Pd">
       <UniqueIdentifier>{2EC11BD7-CEBB-B832-8CB3-D70D257E2DEE}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Camomile\Source\JuceLV2\includes">
+      <UniqueIdentifier>{B06777EE-CEF3-B970-450A-55B8C40B56AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camomile\Source\JuceLV2">
+      <UniqueIdentifier>{7DE1267B-C2DA-4E77-4136-84CD799E4BF5}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Camomile\Source">
       <UniqueIdentifier>{33E9C75D-FCFD-D74A-6894-584B92DA1489}</UniqueIdentifier>
     </Filter>
@@ -411,6 +417,9 @@
     </ClCompile>
     <ClCompile Include="..\..\..\Source\Pd\x_libpd_multi.c">
       <Filter>Camomile\Source\Pd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Dependencies\JuceLV2\juce_LV2_Wrapper.cpp">
+      <Filter>Camomile\Source\JuceLV2</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\Juce\modules\juce_audio_basics\buffers\juce_AudioChannelSet.cpp">
       <Filter>JUCE Modules\juce_audio_basics\buffers</Filter>
@@ -2255,6 +2264,54 @@
     </ClInclude>
     <ClInclude Include="..\..\..\Source\Pd\x_libpd_multi.h">
       <Filter>Camomile\Source\Pd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\atom-util.h">
+      <Filter>Camomile\Source\JuceLV2\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\atom.h">
+      <Filter>Camomile\Source\JuceLV2\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\buf-size.h">
+      <Filter>Camomile\Source\JuceLV2\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\instance-access.h">
+      <Filter>Camomile\Source\JuceLV2\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\lv2.h">
+      <Filter>Camomile\Source\JuceLV2\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\lv2_external_ui.h">
+      <Filter>Camomile\Source\JuceLV2\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\lv2_programs.h">
+      <Filter>Camomile\Source\JuceLV2\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\midi.h">
+      <Filter>Camomile\Source\JuceLV2\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\options.h">
+      <Filter>Camomile\Source\JuceLV2\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\port-props.h">
+      <Filter>Camomile\Source\JuceLV2\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\presets.h">
+      <Filter>Camomile\Source\JuceLV2\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\state.h">
+      <Filter>Camomile\Source\JuceLV2\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\time.h">
+      <Filter>Camomile\Source\JuceLV2\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\ui.h">
+      <Filter>Camomile\Source\JuceLV2\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\units.h">
+      <Filter>Camomile\Source\JuceLV2\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Dependencies\JuceLV2\includes\urid.h">
+      <Filter>Camomile\Source\JuceLV2\includes</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\Juce\modules\juce_audio_basics\audio_play_head\juce_AudioPlayHead.h">
       <Filter>JUCE Modules\juce_audio_basics\audio_play_head</Filter>

@@ -65,6 +65,30 @@
         <FILE id="xDjpgl" name="x_libpd_multi.c" compile="1" resource="0" file="../Source/Pd/x_libpd_multi.c"/>
         <FILE id="rQuXOy" name="x_libpd_multi.h" compile="0" resource="0" file="../Source/Pd/x_libpd_multi.h"/>
       </GROUP>
+      <GROUP id="{031AAC25-DF0A-0120-04F7-878CE173713F}" name="JuceLV2">
+        <GROUP id="{73527ABE-6112-CF14-F00A-B0E966F43D68}" name="includes">
+          <FILE id="quQYMu" name="atom-util.h" compile="0" resource="0" file="../Dependencies/JuceLV2/includes/atom-util.h"/>
+          <FILE id="rFGRwe" name="atom.h" compile="0" resource="0" file="../Dependencies/JuceLV2/includes/atom.h"/>
+          <FILE id="YUWdnU" name="buf-size.h" compile="0" resource="0" file="../Dependencies/JuceLV2/includes/buf-size.h"/>
+          <FILE id="qZAvOq" name="instance-access.h" compile="0" resource="0"
+                file="../Dependencies/JuceLV2/includes/instance-access.h"/>
+          <FILE id="lhPRyc" name="lv2.h" compile="0" resource="0" file="../Dependencies/JuceLV2/includes/lv2.h"/>
+          <FILE id="XOs2zn" name="lv2_external_ui.h" compile="0" resource="0"
+                file="../Dependencies/JuceLV2/includes/lv2_external_ui.h"/>
+          <FILE id="ZKp33c" name="lv2_programs.h" compile="0" resource="0" file="../Dependencies/JuceLV2/includes/lv2_programs.h"/>
+          <FILE id="yymWCj" name="midi.h" compile="0" resource="0" file="../Dependencies/JuceLV2/includes/midi.h"/>
+          <FILE id="OYOo5g" name="options.h" compile="0" resource="0" file="../Dependencies/JuceLV2/includes/options.h"/>
+          <FILE id="hW8dkx" name="port-props.h" compile="0" resource="0" file="../Dependencies/JuceLV2/includes/port-props.h"/>
+          <FILE id="pHGVYn" name="presets.h" compile="0" resource="0" file="../Dependencies/JuceLV2/includes/presets.h"/>
+          <FILE id="mK75SJ" name="state.h" compile="0" resource="0" file="../Dependencies/JuceLV2/includes/state.h"/>
+          <FILE id="iPFo9y" name="time.h" compile="0" resource="0" file="../Dependencies/JuceLV2/includes/time.h"/>
+          <FILE id="uCnzZv" name="ui.h" compile="0" resource="0" file="../Dependencies/JuceLV2/includes/ui.h"/>
+          <FILE id="EZCkRg" name="units.h" compile="0" resource="0" file="../Dependencies/JuceLV2/includes/units.h"/>
+          <FILE id="qRCBye" name="urid.h" compile="0" resource="0" file="../Dependencies/JuceLV2/includes/urid.h"/>
+        </GROUP>
+        <FILE id="AMFVoq" name="juce_LV2_Wrapper.cpp" compile="1" resource="0"
+              file="../Dependencies/JuceLV2/juce_LV2_Wrapper.cpp"/>
+      </GROUP>
     </GROUP>
     <GROUP id="{F3E95E26-375E-BDC8-C48D-8BFDD754028C}" name="Ressources">
       <GROUP id="{4C642A19-4C7E-354A-3CA5-FF3CA080A50D}" name="Credits">
@@ -183,6 +207,30 @@
         <MODULEPATH id="juce_audio_utils" path="../Juce/modules"/>
         <MODULEPATH id="juce_audio_formats" path="../Juce/modules"/>
         <MODULEPATH id="juce_audio_devices" path="../Juce/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile-LV2" extraDefs="JucePlugin_Build_VST=0 JucePlugin_Build_LV2=1"
+                extraCompilerFlags="JucePlugin_Build_VST=0 JucePlugin_Build_LV2=1"
+                externalLibraries="pd">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" libraryPath="../../../Dependencies/LibPd/libs"
+                       binaryPath="../Plugins/CamomileFx.lv2/" linkTimeOptimisation="0"/>
+        <CONFIGURATION isDebug="0" name="Release" linkTimeOptimisation="0" libraryPath="../../../Dependencies/LibPd/libs"
+                       binaryPath="../Plugins/CamomileFx.lv2/"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_extra" path="../Juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../Juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../Juce/modules"/>
+        <MODULEPATH id="juce_events" path="../Juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../Juce/modules"/>
+        <MODULEPATH id="juce_core" path="../Juce/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../Juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../Juce/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../Juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../Juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../Juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../Juce/modules"/>
       </MODULEPATHS>
     </LINUX_MAKE>
   </EXPORTFORMATS>
