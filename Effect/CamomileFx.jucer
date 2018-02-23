@@ -209,10 +209,10 @@
       </MODULEPATHS>
     </LINUX_MAKE>
     <LINUX_MAKE targetFolder="Builds/LinuxMakefile-LV2" externalLibraries="pd"
-                extraDefs="JucePlugin_Build_VST=0 JucePlugin_Build_LV2=1" extraCompilerFlags="JucePlugin_Build_VST=0 JucePlugin_Build_LV2=1">
+                extraDefs="JucePlugin_Build_VST=0 JucePlugin_Build_LV2=1">
       <CONFIGURATIONS>
         <CONFIGURATION isDebug="1" name="Debug" binaryPath="../Plugins/CamomileFx.lv2/"
-                       libraryPath="../../../Dependencies/LibPd/libs"/>
+                       libraryPath="../../../Dependencies/LibPd/libs" linkTimeOptimisation="0"/>
         <CONFIGURATION isDebug="0" name="Release" libraryPath="../../../Dependencies/LibPd/libs"
                        binaryPath="../Plugins/CamomileFx.lv2/" linkTimeOptimisation="0"/>
       </CONFIGURATIONS>

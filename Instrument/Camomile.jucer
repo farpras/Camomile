@@ -210,7 +210,6 @@
       </MODULEPATHS>
     </LINUX_MAKE>
     <LINUX_MAKE targetFolder="Builds/LinuxMakefile-LV2" extraDefs="JucePlugin_Build_VST=0 JucePlugin_Build_LV2=1"
-                extraCompilerFlags="JucePlugin_Build_VST=0 JucePlugin_Build_LV2=1"
                 externalLibraries="pd">
       <CONFIGURATIONS>
         <CONFIGURATION isDebug="1" name="Debug" libraryPath="../../../Dependencies/LibPd/libs"
