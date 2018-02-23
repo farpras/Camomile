@@ -8,6 +8,7 @@
 
 #if JucePlugin_Build_LV2
 
+#include "AppConfig.h"
 #include "../../Juce/modules/juce_core/system/juce_TargetPlatform.h"
 #include "../../Juce/modules/juce_audio_plugin_client/utility/juce_CheckSettingMacros.h"
 #include "../../Juce/modules/juce_audio_plugin_client/utility/juce_IncludeModuleHeaders.h"
